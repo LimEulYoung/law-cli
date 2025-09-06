@@ -1,0 +1,38 @@
+{
+  "name": "lawcli",
+  "version": "0.1.0",
+  "description": "AI-powered legal document search CLI",
+  "main": "install.js",
+  "bin": {
+    "lawcli": "./bin/lawcli"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "law",
+    "legal",
+    "search",
+    "cli",
+    "korean",
+    "판례",
+    "법령",
+    "ai"
+  ],
+  "author": "LimEulYoung",
+  "license": "MIT",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LimEulYoung/law-cli.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ]
+}
